@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TestAngularProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+# angular-zipcode-to-details
+Simple app demonstrate how to retrieve Zip Code Details from an Indian Zip code with API.
+>>>>>>> 195d596407b75e3e2f339328b3365145d0506d9a
