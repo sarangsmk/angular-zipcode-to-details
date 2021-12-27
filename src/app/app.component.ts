@@ -61,12 +61,10 @@ export class AppComponent{
     {
     if(zipValue.length === 6)
     {
-
       axios.request({
         url: `https://api.postalpincode.in/pincode/${zipCode.target.value}`
       }).then(response => {
         console.log(response.data);
-        var dataJson = response.data;
         if(response.data[0] != null)
         {
           if(response.data[0]["PostOffice"].length >0)
@@ -86,13 +84,11 @@ export class AppComponent{
         
       })
 
-
     }else{
       alert("Not an Indian Zip Code");
     }
   }
     
-
   }
 }
 
